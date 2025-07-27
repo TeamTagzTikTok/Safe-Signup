@@ -17,7 +17,7 @@ with open('user.data', 'r') as f:
     PORT = int(conn_parts[1])
     USER = conn_parts[2]
     PASS = conn_parts[3]
-    DB = 's1_hyperwave-userdata'
+    DB = 'SET_YOUR_DATABASE_NAME_HERE'
 
 conn = mysql.connector.connect(
     host=HOST,
